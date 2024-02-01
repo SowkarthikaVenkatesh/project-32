@@ -29,7 +29,7 @@ function draw(){
 
     fill("black");
     textSize(30);
-    
+    console.log(hour)
     if(hour>=12){
         text("Time : "+ hour%12 + " PM", 50,100);
     }else if(hour==0){
